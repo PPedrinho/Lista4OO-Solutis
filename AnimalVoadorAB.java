@@ -23,4 +23,9 @@ public class AnimalVoadorAB extends AnimalAB {
     public void setEnvergaduraAsa(double envergaduraAsa) {
         this.envergaduraAsa = envergaduraAsa;
     }
+
+    //metodo especifico de animal voador
+    public void voar(double qntdCaminho){
+
+    }
 }
