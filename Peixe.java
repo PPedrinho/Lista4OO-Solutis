@@ -11,7 +11,7 @@ public class Peixe extends AnimalMarinhoAB{
     }
 
     @Override
-    public void moverse(double qntdCaminho){
+    public void nadar(double qntdCaminho){
         setQntdCaminho(getQntdCaminho() + qntdCaminho);
         System.out.println("O Peixe "+getNome()+" nadou "+qntdCaminho+" metros");
     }
