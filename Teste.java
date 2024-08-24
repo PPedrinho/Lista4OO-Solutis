@@ -9,11 +9,11 @@ public class Teste {
         Peixe peixe = new Peixe("Nemo", 0.1, "peixe", 2, "aquatico", 0.3);
         peixe.comer(2);
         peixe.dormir(2);
-        peixe.moverse(1.2);
+        peixe.nadar(1.2);
 
         Pombo pombo = new Pombo("João", 2, "ave", 3, "terrestre", 0.4, 2, 0.1);
         pombo.comer(5);
         pombo.dormir(2);
-        pombo.moverse(1.5);
+        pombo.voar(1.5);
     }
 }   
