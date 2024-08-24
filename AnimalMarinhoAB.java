@@ -4,4 +4,8 @@ public class AnimalMarinhoAB extends AnimalAB {
         super(nome, peso, tipo, idade, habitat, altura);
     }
 
+    //metodo especifico de animal marinho
+    public void nadar(double qntdCaminho){
+        
+    }
 }
