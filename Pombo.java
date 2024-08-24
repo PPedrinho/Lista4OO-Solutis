@@ -11,7 +11,7 @@ public class Pombo extends AnimalVoadorAB{
     }
 
     @Override
-    public void moverse(double qntdCaminho){
+    public void voar(double qntdCaminho){
         setQntdCaminho(getQntdCaminho() + qntdCaminho);
         System.out.println("O Pombo "+getNome()+" voou "+qntdCaminho+" metros");
     }
